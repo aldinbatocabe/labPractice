@@ -1,39 +1,39 @@
-let array1 = [1, 5, 6, 9, 10, 14];
+// let array1 = [1, 5, 6, 9, 10, 14];
 
-// print the 3rd element in array1
-console.log(array1[2]);
+// // print the 3rd element in array1
+// console.log(array1[2]);
 
-// print the last element in array1
-console.log(array1[5]);
+// // print the last element in array1
+// console.log(array1[5]);
 
-// add 16 and 3 to array1
-array1.push('16', '3');
+// // add 16 and 3 to array1
+// array1.push('16', '3');
 
-// sort the array, then print the 3rd element again
-// did it change?
-array1.sort();
-console.log(array1[2]);
+// // sort the array, then print the 3rd element again
+// // did it change?
+// array1.sort();
+// console.log(array1[2]);
 
-// create a variable called myTodoList that holds an empty array
-let myTodoList = [];
+// // create a variable called myTodoList that holds an empty array
+// let myTodoList = [];
 
-// add three todo items to the array using a built-in array method
-myTodoList.push('laundry', 'dishes', 'throw thrash');
+// // add three todo items to the array using a built-in array method
+// myTodoList.push('laundry', 'dishes', 'throw thrash');
 
-// remove the second item in the array
-myTodoList.splice(1,1);
+// // remove the second item in the array
+// myTodoList.splice(1,1);
 
-// create another array, yourTodoList, and add two todo items
-let yourTodoList = ['cooking', 'feed pet']
+// // create another array, yourTodoList, and add two todo items
+// let yourTodoList = ['cooking', 'feed pet']
 
-// create another array, ourTodoList
-// combine myTodoList and yourTodoList into ourTodoList
-let ourTodoList = myTodoList.concat(yourTodoList);
+// // create another array, ourTodoList
+// // combine myTodoList and yourTodoList into ourTodoList
+// let ourTodoList = myTodoList.concat(yourTodoList);
 
-// sort the following array from Z-A
-ourTodoList.sort();
-ourTodoList.reverse();
-console.log(ourTodoList);
+// // sort the following array from Z-A
+// ourTodoList.sort();
+// ourTodoList.reverse();
+// console.log(ourTodoList);
 
 // create a function called reverse that takes in parameter
 // this function will return the opposite of whatever is passed in
@@ -54,3 +54,11 @@ console.log(ourTodoList);
 // 40% on all profits above $1,000,000
 // create a function that will allow you to check how much of a bonus you make
 // the function should take in two variables as arguments, grossInvoiced and profitMargin
+
+
+// Javascript Week 3 Array Open Class
+var input = ['Hello', 'Goodbye', 'Eddie']
+
+var reverseArray = input.reverse();
+
+console.log(reverseArray);
